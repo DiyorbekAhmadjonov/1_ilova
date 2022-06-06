@@ -10,7 +10,5 @@ router.register(r'users', CustomUserViewSet,basename="users")
 urlpatterns = [
     path('', include(router.urls)), 
     path('validate_username/', validate_username, name='validate_username'),
-    
 ]
-
 
