@@ -1,7 +1,5 @@
 from .views import CustomUserViewSet,validate_username
 
-
-
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
@@ -14,3 +12,5 @@ urlpatterns = [
     path('validate_username/', validate_username, name='validate_username'),
     
 ]
+
+
