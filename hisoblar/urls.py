@@ -12,3 +12,5 @@ urlpatterns = [
     path('validate_username/', validate_username, name='validate_username'),
     
 ]
+
+
